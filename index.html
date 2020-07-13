@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Front mobile</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Anderson Kich">
+        <meta name="description" content="Nova funcionalidade">
+        <script src="https://kit.fontawesome.com/805965cf9d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/styles.css">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js"
+            type="text/javascript" charset="utf-8"></script>
+        <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js"
+            type="text/javascript" charset="utf-8"></script>
+              
+    </head>
+  
+    <body>
+        <div class='container'>
+            <div id='mapContainer' class='container-maps'>
+                <div class='cursor'>
+                    <div class='cursor-title'>Local da Ocorrência</div>
+                </div>
+              
+            </div>
+              <div class='container-painel'>
+                <form id='form'>
+                    <fieldset class='form-fieldset-01'>
+                        <div class='form-input'>
+                        <input id='endereco' type='text'  value='Rua Olinda, 140'/>
+                        <i class="fa fa-crosshairs fa-lg" aria-hidden="true" ></i>
+                        </div>
+                    </fieldset>
+      
+                  <fieldset class='form-fieldset-02'>
+                    <span>Confirme seu local</span>
+                    <p class='description'>Ajude seu prestador a localiza-lo mais rapidamente, ajuste sua localização acima'</p>
+                    <div class='form-input'>
+                        <input type='submit' value='Comfirmar o Local da Ocorrência'/>
+                        <i class="fa fa-arrow-right fa-lg" aria-hidden="true"></i>
+                    </div>
+        
+                    <div class='box-dados-veiculo'>
+                        <div class='logo-veiculo'><img src='./assets/images/logoVW.png' alt="logo"/></div>
+            
+                        <div class='dados'>
+                            <p class='title'>placa</p>
+                            <p class='placa'> ixs-8269</p>
+                        </div>
+                        <div class='dados'>
+                            <p class='title'>protocolo</p>
+                            <p class='protocolo'>1457845856894</p>
+                        </div>
+                    </div>      
+                    </fieldset>
+                </form>      
+              </div>     
+            </div>
+    </body>
+    <script src="./assets/scripts/script.js"></script>
+</html>
